@@ -12,7 +12,7 @@ public class Project {
 
     void isCalculatePow() {
 
-        assertEquals(256, MathLib.pow(4, 4));
+        assertEquals(256, MathLibrary.pow(4, 4));
 
 
     }
@@ -23,7 +23,7 @@ public class Project {
 
     void isCalculateFactorial() {
 
-        assertEquals(120, MathLib.factorial(5));
+        assertEquals(120, MathLibrary.factorial(5));
 
     }
 
@@ -34,7 +34,7 @@ public class Project {
     void IsCalculateLog() {
 
 
-        assertEquals(3, MathLib.log(27, 3));
+        assertEquals(3, MathLibrary.log(27, 3));
 
     }
 }
