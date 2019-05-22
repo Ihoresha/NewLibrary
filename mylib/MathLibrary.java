@@ -7,10 +7,6 @@ public class MathLibrary {
 
 
 
-    private MathLibrary() {
-
-    }
-
 
 
     public static double pow(double number, double power) {
