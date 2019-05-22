@@ -7,6 +7,11 @@ public class MathLibrary {
 
 
 
+    public static double pow(double number, double power) {
+
+        return Math.pow(number, power);
+    }
+
 
 
     public static int factorial(int number) {
